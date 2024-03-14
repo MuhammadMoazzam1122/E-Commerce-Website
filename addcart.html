@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/8880fa8513.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Josefin+Sans:ital,wght@1,700&family=Kalam&family=League+Spartan&family=Poppins:wght@500&display=swap"
+        rel="stylesheet">
+    <title></title>
+</head>
+
+<body>
+    <scetion id="firstSection">
+        <div class="navbar">
+
+            <div class="logo">
+                <img src="images/caralogo.png" alt="">
+            </div>
+
+            <ul class="navbarul">
+                <li><a onclick="window.location.href='index.html'" href="#">Home</a></li>
+                <li><a onclick="window.location.href='shop.html'" href="#">Shop</a></li>
+                <li><a onclick="window.location.href='blog.html'" href="#">Blog</a></li>
+                <li><a onclick="window.location.href='about.html'" href="#">About</a></li>
+                <li><a  onclick="window.location.href='contact.html'" href="#">Contact</a></li>
+                <li><a class="active" href="#"> <i id="lg-shop" class="fas fa-shopping-bag"></i></a></li>
+                <a href=""><i class="fa-solid fa-xmark"></i></a>
+
+            </ul>
+
+            <div class="mob">
+                <i id="bar" class="fas fa-outdent"></i>
+                <a href=""> <i class="fas fa-shopping-bag"></i></a>
+            </div>
+
+        </div>
+    </scetion>
+
+    <section id="sectionTwo.shop">
+
+        <div class="pageHeader" id="about-header">
+            <h2 class="head2">#cart</h2>
+            <h5 class="head5">Add your coupon & save upto 70% off!!</h5>
+        </div>
+
+    </section>
+
+
+    <section class="cart">
+        <table width="100%">
+            <thead>  <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Prince</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+
+                </tr>
+            </thead>
+            <tbody class="Tbody">
+                <tr class="cartRemove">
+                    <td> <i class="fa-solid fa-circle-xmark cross" onclick="remove()"></i></td>
+                    <td><img src="images/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronout T-shirts</td>
+                    <td>139.19$</td>
+                    <td><input type="number" min="1" value="1"></td>
+                    <td>139.19$</td>
+                </tr>
+                <tr class="cartRemove">
+                    <td> <i class="fa-solid fa-circle-xmark cross" onclick="remove()"></i></td>
+                    <td><img src="images/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronout T-shirts</td>
+                    <td>139.19$</td>
+                    <td><input type="number" min="1" value="1"></td>
+                    <td>139.19$</td>
+                </tr>
+                <tr class="cartRemove">
+                    <td> <i class="fa-solid fa-circle-xmark cross" onclick="remove()"></i></td>
+                    <td><img src="images/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronout T-shirts</td>
+                    <td>139.19$</td>
+                    <td><input type="number" min="1" value="1"></td>
+                    <td>139.19$</td>
+                </tr>
+               
+             
+            </tbody>
+        </table>
+    </section>
+
+    <section class="coupon">
+        <div class="applycoupon">
+            <h2>Apply Coupon</h2>
+            <input type="text" placeholder="Enter The Coupon">
+            <button class="fillbtn">Apply</button>
+        </div>
+        <div class="CartTotals">
+<h3>SubTotal</h3>
+<table>
+    <tr>
+        <td>Cart Total</td>
+        <td>335.57$</td>
+    </tr>
+    <tr>
+        <td>Shipping</td>
+        <td>Free</td>
+    </tr>
+    <tr>
+        <td><strong>Total</strong></td>
+        <td><strong>335.57$</strong></td>
+    </tr>
+</table>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="section1">
+            <div class="logo2">
+                <img src="images/caralogo.png" alt="">
+                <h3>Contact</h3>
+                <div class="MainFinfo">
+                    <div class="Finfo">
+                        <h4>Aadress:</h4><span>street 44 main Road Karachi</span>
+                    </div>
+                    <div class="Finfo">
+                        <h4>contact:</h4><span>12345678900</span>
+                    </div>
+                    <div class="Finfo">
+                        <h4>Hours:</h4><span>10:00am - 10pm-18:00am - 10pm Mon-Sat</span>
+                    </div>
+
+
+
+                </div>
+
+
+                <h3>Follow us</h3>
+                <div class="social">
+                    <img src="images/fb.png" alt="">
+                    <img src="images/insta-removebg-preview.png" alt="">
+                    <img src="images/twitter-removebg-preview.png" alt="">
+                    <img id="yt" src="images/yt-removebg-preview.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section2">
+            <h3>About</h3>
+            <div class="element">About us</div>
+            <div class="element">Delivery Information</div>
+            <div class="element">Privacy Policy</div>
+            <div class="element">Terms and condition</div>
+            <div class="element">contact Us</div>
+        </div>
+
+
+        <div class="section3">
+            <h3>My Account</h3>
+            <div class="element">Sign in</div>
+            <div class="element">New Cart</div>
+            <div class="element">My WishLIst</div>
+            <div class="element">Track MyOrder</div>
+            <div class="element">Help</div>
+        </div>
+
+
+    </footer>
+
+    <section class="copyright">
+        copyright&copy;CaraEcommerce
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
